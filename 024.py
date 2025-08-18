@@ -1,6 +1,6 @@
+#Pedra, Papel ou Tesoura
+
 import random
-
-
 
 opcoes = ['Pedra', 'Papel', 'Tesoura']
 
@@ -36,4 +36,5 @@ elif escolha_pc == 'Pedra' and escolha_jogador == 'Papel':
     print('O jogador ganhou')
 
 elif escolha_pc == 'Pedra' and escolha_jogador == 'Pedra':
+
     print('Empate')
