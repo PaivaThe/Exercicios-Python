@@ -2,13 +2,20 @@
 
 num1 = int(input('Digite o primeiro termo da PA: '))
 razao = int(input('Digite a razao da PA: '))
-soma = 0
-range = 10
+termo = num1
+cont = 1
+total = 0
+mais = 10
 
-while range > 0:
-    print(f'{num1}')
-    soma += num1
-    num1 += razao 
-    range -= 1
+while mais != 0:
+    total = total + mais
+    
+    while cont <= total:
+        print(f'{termo}')
+        termo += razao
+        cont += 1
+    
+    mais = int(input('Quantos termos voce quer mostrar a mais? '))
+
 
 print('FIM')
